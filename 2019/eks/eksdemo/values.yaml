@@ -1,0 +1,9 @@
+replicas: 3
+version: 'latest'
+
+nodejs:
+  image: brentley/ecsdemo-nodejs-non-existing
+crystal:
+  image: brentley/ecsdemo-crystal
+frontend:
+  image: brentley/ecsdemo-frontend
